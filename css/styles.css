@@ -350,7 +350,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-color-text);
   text-transform: uppercase;
-  display: inline-block;
   margin-top: 16px;
 }
 .footer-text {
@@ -481,6 +480,7 @@ img {
 .main-btn-item {
   padding: 96px 0 72px 0;
 }
+
 .main-btn-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -490,13 +490,15 @@ img {
   color: #4d5ae5;
   cursor: pointer;
   background-color: var(--footer-text-color);
-  border-radius: 4px;
   border: none;
   padding: 12px 24px;
+  border-radius: 4px;
 }
 .main-btn-link:is(:hover, :focus) {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
+  border: none;
 }
 
 .main-wrap {
