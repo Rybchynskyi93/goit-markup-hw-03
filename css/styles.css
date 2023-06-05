@@ -69,6 +69,7 @@ img {
   color: var(--main-text-color);
   letter-spacing: 0.03em;
   margin: auto;
+  padding: 24px 0;
 }
 
 .header-navigation {
@@ -170,8 +171,8 @@ img {
 }
 
 .hero-content {
+  padding: 188px 0;
   max-width: 496px;
-  padding: 188px 0px;
 }
 
 .hero-btn {
@@ -184,13 +185,13 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
-
   padding: 16px 32px;
+  margin: auto;
 }
 
 .hero-style-btn {
   display: block;
-  justify-content: space-between;
+  justify-content: center;
   min-width: 169px;
   border-radius: 4px;
 }
@@ -215,10 +216,18 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
+
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
+
 .advantages-list {
   list-style: none;
   display: flex;
@@ -261,7 +270,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .project-list {
   list-style: none;
@@ -288,7 +297,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--main-text-color);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list {
   list-style: none;
@@ -297,7 +306,7 @@ img {
 }
 .team-item {
   background-color: #ffffff;
-  width: calc((100%-72) / 4);
+  width: calc((100%-72px) / 4);
   text-align: center;
   border-radius: 0px 0px 4px 4px;
 }
@@ -313,7 +322,7 @@ img {
   color: var(--main-text-color);
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 8px 0;
+  margin-bottom: 8px;
 }
 
 .team-text {
@@ -330,6 +339,7 @@ img {
 }
 
 .footer-container {
+  display: inline-block;
 }
 
 .footer-logo {
@@ -357,8 +367,8 @@ img {
 /*!--------------------------------------------------------PORTFOLIO---------------------------------------------------*/
 
 .header {
-  /* box-sizing: border-box;
-  border-bottom: 1px solid #e7e9fc; */
+  box-sizing: border-box;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
@@ -410,7 +420,6 @@ img {
   line-height: 1.5;
   color: var(--main-text-color);
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -420,6 +429,7 @@ img {
   color: var(--main-text-color);
   letter-spacing: 0.02em;
   display: block;
+  padding: 24px 0;
 }
 
 .header-menu-link:is(:hover, :focus) {
