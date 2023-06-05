@@ -500,18 +500,20 @@ img {
 }
 
 .main-wrap {
-  display: block;
 }
 
 .main-list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
 }
+
 .main-item {
   text-decoration: none;
   list-style: none;
+  width: calc((100% - 48px) / 3);
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .main-item-link {
