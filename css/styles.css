@@ -354,10 +354,12 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--title-color-text);
+  display: block;
   display: inline-block;
   text-transform: uppercase;
   margin-top: 16px;
 }
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -368,7 +370,7 @@ img {
 }
 .footer-span {
   color: var(--section-bacground-color);
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 /*!--------------------------------------------------------PORTFOLIO---------------------------------------------------*/
@@ -492,7 +494,7 @@ img {
 }
 .main-btn-item {
   padding: 96px 0 72px 0;
-  /* border: 1px solid --portfolio-bacground-color; */
+  border: 1px solid --portfolio-bacground-color;
 }
 
 .main-btn-link {
@@ -507,14 +509,14 @@ img {
   border: none;
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid --portfolio-bacground-color;
+  /* border: 1px solid --portfolio-bacground-color; */
   border-top: none;
   /* border: 1px solid transparent; */
 }
 .main-btn-link:is(:hover, :focus) {
   color: #ffffff;
   background-color: #404bbf;
-  /* border: 1px solid var(--portfolio-bacground-color); */
+  border: 1px solid var(--portfolio-bacground-color);
   border: 1px solid transparent;
   border: none;
 }
@@ -572,11 +574,12 @@ img {
   line-height: 1.17;
   color: var(--accent-color);
   letter-spacing: 0.03em;
-  display: inline-block;
   text-transform: uppercase;
   display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
+
 .footer-text {
   color: var(--footer-text-color);
   font-size: 16px;
