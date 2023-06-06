@@ -512,12 +512,12 @@ img {
   padding: 12px 24px;
   border-radius: 4px;
   border-top: none;
-  border: 1px solid var(--portfolio-bacground-color);
+  /* border: 1px solid var(--portfolio-bacground-color); */
 }
 .main-btn-link:is(:hover, :focus) {
   color: #ffffff;
   background-color: #404bbf;
-  /* border: 1px solid var(--portfolio-bacground-color); */
+  border: 1px solid var(--portfolio-bacground-color);
   border: 1px solid transparent;
   /* border: none; */
 }
