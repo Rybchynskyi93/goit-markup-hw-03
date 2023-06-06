@@ -344,7 +344,7 @@ img {
 }
 
 .footer-container {
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .footer-logo {
@@ -354,9 +354,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--title-color-text);
+  display: inline-block;
   text-transform: uppercase;
   margin-top: 16px;
-  display: inline-block;
 }
 .footer-text {
   font-size: 16px;
@@ -514,9 +514,9 @@ img {
 .main-btn-link:is(:hover, :focus) {
   color: #ffffff;
   background-color: #404bbf;
-  /* border: 1px solid var(--portfolio-bacground-color); */
+  border: 1px solid var(--portfolio-bacground-color);
   border: none;
-  /* border: 1px solid transparent; */
+  border: 1px solid transparent;
 }
 
 .main-list {
@@ -572,10 +572,10 @@ img {
   line-height: 1.17;
   color: var(--accent-color);
   letter-spacing: 0.03em;
+  display: inline-block;
   text-transform: uppercase;
   display: block;
   margin-bottom: 16px;
-  display: inline-block;
 }
 .footer-text {
   color: var(--footer-text-color);
