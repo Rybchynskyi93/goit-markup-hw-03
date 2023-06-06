@@ -467,7 +467,7 @@ img {
   padding: 96px 0 120px 0;
 }
 
-.main-buttons {
+.main-box {
   margin: auto;
   border: none;
 }
@@ -501,11 +501,6 @@ img {
   border: 1px solid transparent;
   border: none;
 }
-.wrapper {
-}
-
-.main-wrap {
-}
 
 .main-list {
   list-style: none;
@@ -524,6 +519,10 @@ img {
 .main-item-link {
   text-decoration: none;
 }
+
+.wrap-text {
+}
+
 .main-title {
   font-weight: 500;
   font-size: 20px;
