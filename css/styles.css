@@ -55,10 +55,12 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .container {
@@ -229,11 +231,12 @@ img {
 .advantages-list {
   list-style: none;
   display: flex;
-
+  width: calc((100% - 72px) / 4);
   gap: 24px;
 }
 
 .advantages-item {
+  margin-bottom: 8px;
   /* width: calc((100% - 72px) / 4); */
 }
 .advantages-subtitle {
@@ -243,7 +246,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   padding-bottom: 8px;
-  width: calc((100% - 72px) / 4);
+  /* width: calc((100% - 72px) / 4); */
 }
 .advantages-text {
   font-size: 16px;
@@ -410,6 +413,7 @@ img {
   display: flex;
   align-items: center;
   padding-bottom: 35px;
+  padding: 0 15px;
 }
 
 .header-menu-item {
@@ -462,14 +466,6 @@ img {
 }
 /*-------------------------------MAIN--------------------------------------*/
 .main-title {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
 }
 
 .main-content {
@@ -490,6 +486,7 @@ img {
 }
 .main-btn-item {
   padding: 96px 0 72px 0;
+  /* border: 1px solid --portfolio-bacground-color; */
 }
 
 .main-btn-link {
@@ -505,12 +502,14 @@ img {
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid --portfolio-bacground-color;
+  border-top: none;
 }
 .main-btn-link:is(:hover, :focus) {
   color: #ffffff;
   background-color: #404bbf;
-  border: 1px solid var(--portfolio-bacground-color);
+  /* border: 1px solid var(--portfolio-bacground-color); */
   border: none;
+  border: 1px solid transparent;
 }
 
 .main-list {
@@ -524,11 +523,12 @@ img {
 .main-item {
   text-decoration: none;
   list-style: none;
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
 }
 
 .main-item-link {
   text-decoration: none;
+  width: calc((100% - 48px) / 3);
 }
 
 .wrap-text {
