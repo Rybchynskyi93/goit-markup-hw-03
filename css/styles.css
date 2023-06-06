@@ -357,9 +357,10 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--title-color-text);
-  display: inline-block;
+  display: block;
   text-transform: uppercase;
   margin-top: 16px;
+  display: inline-block;
 }
 .footer-text {
   font-size: 16px;
@@ -510,7 +511,7 @@ img {
   border: none;
   padding: 12px 24px;
   border-radius: 4px;
-  border: 1px solid --portfolio-bacground-color;
+  border: 1px solid var(--portfolio-bacground-color);
   border-top: none;
 }
 .main-btn-link:is(:hover, :focus) {
@@ -574,10 +575,10 @@ img {
   line-height: 1.17;
   color: var(--accent-color);
   letter-spacing: 0.03em;
-  display: inline-block;
   text-transform: uppercase;
   display: block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-text {
   color: var(--footer-text-color);
