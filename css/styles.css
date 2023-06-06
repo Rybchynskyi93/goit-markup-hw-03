@@ -344,6 +344,7 @@ img {
 }
 
 .footer-container {
+  display: inline-block;
 }
 
 .footer-logo {
@@ -355,7 +356,7 @@ img {
   color: var(--title-color-text);
   text-transform: uppercase;
   margin-top: 16px;
-  /* display: inline-block; */
+  display: inline-block;
 }
 .footer-text {
   font-size: 16px;
@@ -367,7 +368,7 @@ img {
 }
 .footer-span {
   color: var(--section-bacground-color);
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 /*!--------------------------------------------------------PORTFOLIO---------------------------------------------------*/
@@ -574,6 +575,7 @@ img {
   text-transform: uppercase;
   display: block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-text {
   color: var(--footer-text-color);
