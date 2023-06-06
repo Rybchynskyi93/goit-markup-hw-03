@@ -38,6 +38,7 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
+  padding-left: 0;
 }
 
 a {
@@ -226,7 +227,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-  margin-bottom: 8px;
 }
 
 .advantages-list {
@@ -247,6 +247,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   padding-bottom: 8px;
+  margin-bottom: 8px;
   /* width: calc((100% - 72px) / 4); */
 }
 .advantages-text {
