@@ -492,7 +492,7 @@ img {
 }
 .main-btn-item {
   padding: 96px 0 72px 0;
-  /* border: 1px solid --portfolio-bacground-color; */
+  border: 1px solid --portfolio-bacground-color;
 }
 
 .main-btn-link {
@@ -515,8 +515,8 @@ img {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid var(--portfolio-bacground-color);
-  border: none;
   border: 1px solid transparent;
+  border: none;
 }
 
 .main-list {
