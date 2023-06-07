@@ -84,8 +84,6 @@ img {
   line-height: 1.5;
   color: var(--main-text-color);
   letter-spacing: 0.03em;
-  margin: auto;
-  padding: 24px 0;
 }
 
 .header-navigation {
@@ -115,7 +113,6 @@ img {
   text-decoration: none;
   color: var(--main-text-color);
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-container {
@@ -140,6 +137,7 @@ img {
   color: var(--main-text-color);
   letter-spacing: 0.02em;
   display: block;
+  padding: 24px 0;
 }
 
 .header-menu-link:is(:hover, :focus) {
@@ -185,6 +183,7 @@ img {
   color: var(--title-color-text);
   max-width: 496px;
   margin-bottom: 48px;
+  margin: 0 auto;
 }
 
 .hero-content {
@@ -249,7 +248,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  padding-bottom: 8px;
   margin-bottom: 8px;
   /* width: calc((100% - 72px) / 4); */
 }
@@ -359,7 +357,7 @@ img {
   color: var(--title-color-text);
   display: block;
   text-transform: uppercase;
-  margin-top: 16px;
+  margin-bottom: 16px;
   display: inline-block;
 }
 .footer-text {
@@ -495,7 +493,7 @@ img {
   margin-bottom: 72px;
 }
 .main-btn-item {
-  padding: 96px 0 72px 0;
+  /* padding: 96px 0 72px 0; */
   /* border: 1px solid --portfolio-bacground-color; */
 }
 
@@ -553,14 +551,14 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  margin: 32px 0 8px 0;
+  margin-bottom: 8px;
 }
 .main-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
-  padding-bottom: 48px;
+  /* padding-bottom: 48px; */
 }
 
 /*-------------------------------FOOTER--------------------------------------*/
